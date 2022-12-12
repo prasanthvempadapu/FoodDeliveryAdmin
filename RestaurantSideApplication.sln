@@ -5,7 +5,11 @@ VisualStudioVersion = 17.2.32630.192
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RestaurantSideApplication", "RestaurantSideApplication\RestaurantSideApplication.csproj", "{B1E40544-8BDE-4359-BA72-C5615C6A1E51}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FoodDeliveryApplication", "..\FoodDeliveryClient\FoodDeliveryApplication\FoodDeliveryApplication.csproj", "{02567F9B-3002-48E2-90FC-231C8BA2377B}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution items", "Solution items", "{C3623F52-1770-4822-8BCA-90B15A680D27}"
+	ProjectSection(SolutionItems) = preProject
+		buildspec.yml = buildspec.yml
+		Procfile = Procfile
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,10 +21,6 @@ Global
 		{B1E40544-8BDE-4359-BA72-C5615C6A1E51}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B1E40544-8BDE-4359-BA72-C5615C6A1E51}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B1E40544-8BDE-4359-BA72-C5615C6A1E51}.Release|Any CPU.Build.0 = Release|Any CPU
-		{02567F9B-3002-48E2-90FC-231C8BA2377B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{02567F9B-3002-48E2-90FC-231C8BA2377B}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{02567F9B-3002-48E2-90FC-231C8BA2377B}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{02567F9B-3002-48E2-90FC-231C8BA2377B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
